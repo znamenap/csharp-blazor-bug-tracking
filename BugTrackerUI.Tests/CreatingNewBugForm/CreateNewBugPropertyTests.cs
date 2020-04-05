@@ -6,8 +6,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using Xunit;
+using BugTrackerUI.Tests;
 
-namespace BugTrackerUI.Tests.CreatingNavigationAndComponents
+namespace B_BugTrackerUI.Tests.CreatingNewBugForm
 {
     public class CreateNewBugPropertyTests
     {

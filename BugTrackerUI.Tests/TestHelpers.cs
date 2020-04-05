@@ -20,7 +20,14 @@ namespace BugTrackerUI.Tests
 
             IEnumerable<Type> subclasses = types.Where(t => t.IsSubclassOf(parentType));
 
-            return subclasses.FirstOrDefault(x => x.FullName == fullName);
+            var found = subclasses.FirstOrDefault(x => x.FullName == fullName);
+
+            if(found == null)
+            {
+                found = assembly.GetTypes().FirstOrDefault(x => x.FullName == fullName);
+            }
+
+            return found;
         }
 
         public static string GetRootString()

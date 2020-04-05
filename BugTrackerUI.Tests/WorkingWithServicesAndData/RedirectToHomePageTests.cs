@@ -8,8 +8,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
+using BugTrackerUI.Tests;
 
-namespace BugTrackerUI.Tests.CreatingNavigationAndComponents
+namespace C_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
     public class RedirectToHomePageTests
     {

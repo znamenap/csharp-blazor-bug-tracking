@@ -18,6 +18,7 @@ namespace BugTrackerUI
         public string Description { get; set; }
 
         [Range(1, 5)]
+        [Required]
         public int Priority { get; set; }
     }
 }

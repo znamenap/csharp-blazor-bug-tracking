@@ -5,8 +5,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using Xunit;
+using BugTrackerUI.Tests;
 
-namespace BugTrackerUI.Tests.CreatingNavigationAndComponents
+namespace C_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
     public class RegisterTheBugServiceTests
     {
