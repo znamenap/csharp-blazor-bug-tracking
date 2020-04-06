@@ -23,9 +23,9 @@ namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
 
             var newBug = TestHelpers.GetClassType("BugTrackerUI.Components.BugList");
 
-            var props = newBug.GetProperties();
+            var prop = newBug.GetProperty("BugService");
 
-            Assert.True(newBug.GetProperty("BugService").PropertyType.Name.Contains("IBugService")
+            Assert.True(prop != null && prop.PropertyType.Name.Contains("IBugService")
                 && newBug.IsPublic
                 && newBug.GetProperty("BugService").Name.Contains("BugService"),
                 "`BugList.razor` should contain a public property `BugService` of type `IBugService`.");

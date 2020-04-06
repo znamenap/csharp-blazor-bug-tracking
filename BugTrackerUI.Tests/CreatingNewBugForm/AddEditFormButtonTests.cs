@@ -32,8 +32,8 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
                 var parsedInput = editForm.Descendants("button")
                     .FirstOrDefault(x => x.Attributes["type"]?.Value == $"submit");
 
-                Assert.True(parsedInput != null, 
-                    $"NewBug.razor should contain a button with attributes `type=\"submit\"`.");
+                Assert.True(parsedInput != null && parsedInput.InnerText == "Add Bug", 
+                    $"NewBug.razor should contain a button with attributes `type=\"submit\"` and the text `\"Add Bug\"`.");
             }
         }
     }

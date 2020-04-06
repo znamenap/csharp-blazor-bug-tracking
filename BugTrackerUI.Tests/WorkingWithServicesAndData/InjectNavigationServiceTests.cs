@@ -23,9 +23,9 @@ namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 
             var newBug = TestHelpers.GetClassType("BugTrackerUI.Pages.NewBug");
 
-            var props = newBug.GetProperties();
+            var prop = newBug.GetProperty("NavService");
 
-            Assert.True(newBug.GetProperty("NavService").PropertyType.Name.Contains("NavigationManager")
+            Assert.True(prop != null && prop.PropertyType.Name.Contains("NavigationManager")
                 && newBug.IsPublic
                 && newBug.GetProperty("NavService").Name.Contains("NavService"),
                 "`NewBug.razor` should contain a public property `NavService` of type `NavigationManager`.");

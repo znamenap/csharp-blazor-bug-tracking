@@ -39,7 +39,7 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
 
                 }
                 Assert.True(parsedInput != null, 
-                    $"NewBug.razor should contain an input with attributes `placeholder=\"NewTask.{label}\"` and `@bind-balue=\"@AddBug.{label}\"`");
+                    $"NewBug.razor should contain an input with attributes `placeholder=\"Enter {label}\"` and `@bind-value=\"@AddBug.{label}\"`");
             }
         }
     }

@@ -23,12 +23,12 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
 
             var newBug = TestHelpers.GetClassType("BugTrackerUI.Pages.NewBug");
 
-            var props = newBug.GetProperties();
+            var prop = newBug.GetProperty("AddBug");
 
-            Assert.True(newBug.GetProperty("AddBug").PropertyType.Name.Contains("Bug")
+            Assert.True(prop != null && prop.PropertyType.Name.Contains("Bug")
                 && newBug.IsPublic
                 && newBug.GetProperty("AddBug").Name.Contains("AddBug"),
-                "`NewBug.razor` should contain a public property `Bug` of type `Bug`.");
+                "`NewBug.razor` should contain a public property `AddBug` of type `Bug`.");
         }
     }
 }

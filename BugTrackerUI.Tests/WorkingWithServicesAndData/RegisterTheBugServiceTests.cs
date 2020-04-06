@@ -26,7 +26,7 @@ namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
             }
 
             Assert.True(file.Contains("services.AddSingleton<IBugService, BugService>()"),
-                "`Startup.cs`'s `Configure` did not contain a call to `services.AddSingleton` with the type parametrs `<IBugService, BugService>`.");
+                "The `Configure Services` method in `Startup.cs` did not contain a call to `services.AddSingleton` with the type parametrs `<IBugService, BugService>`.");
         }
     }
 }

@@ -26,7 +26,7 @@ namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
             var leftNav = doc.DocumentNode.Descendants("LeftNav")?.FirstOrDefault();
 
             Assert.True(leftNav != null,
-                "`LeftNav.razor` should contain navigation `ul` element with two child `li` elements.");
+                "`MainLayout.razor` should contain the `LeftNav` component.");
 
         }
     }

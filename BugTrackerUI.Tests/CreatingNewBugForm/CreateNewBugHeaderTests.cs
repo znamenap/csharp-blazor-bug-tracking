@@ -23,10 +23,10 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
             var doc = new HtmlDocument();
             doc.Load(filePath);
 
-            var leftNav = doc.DocumentNode.Descendants("h2")?.FirstOrDefault();
+            var h2 = doc.DocumentNode.Descendants("h3")?.FirstOrDefault();
 
-            Assert.True(leftNav != null && leftNav.InnerText.Contains("Add New Bug", StringComparison.OrdinalIgnoreCase), 
-                "`LeftNav.razor` should contain navigation `ul` element with two child `li` elements.");
+            Assert.True(h2 != null && h2.InnerText.Contains("Add New Bug", StringComparison.OrdinalIgnoreCase), 
+                "`NewBug.razor` should contain an `h3` tag with the text `\"Add new Bug\".");
         }
     }
 }

@@ -23,10 +23,10 @@ namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
             var doc = new HtmlDocument();
             doc.Load(filePath);
 
-            var h2 = doc.DocumentNode.Descendants("h2")?.FirstOrDefault();
+            var h3 = doc.DocumentNode.Descendants("h3")?.FirstOrDefault();
 
-            Assert.True(h2 != null && h2.InnerText.Contains("All Bug", StringComparison.OrdinalIgnoreCase),
-                "The component `BugList.razor` should exist in the components folder and contain an `h2` element with the text `\"All Bugs\"`");
+            Assert.True(h3 != null && h3.InnerText.Contains("All Bugs", StringComparison.OrdinalIgnoreCase),
+                "The component `BugList.razor` should exist in the components folder and contain an `h3` element with the text `\"All Bugs\"`");
         }
     }
 }
