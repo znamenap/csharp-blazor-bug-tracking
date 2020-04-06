@@ -9,11 +9,11 @@ using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
-namespace D_BugTrackerUI.Tests.AddDataValidationToForm
+namespace M05_BugTrackerUI.Tests.AddDataValidationToForm
 {
-    public class AddRequiredAttributesTests
+    public class M5_01_AddRequiredAttributesTests
     {
-        [Fact(DisplayName = "Inject the Navigation Service into the NewBug Component @inject-navigation-service")]
+        [Fact(DisplayName = "Add Required Attributes @add-required-attributes")]
         public void AddRequiredAttributesTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"

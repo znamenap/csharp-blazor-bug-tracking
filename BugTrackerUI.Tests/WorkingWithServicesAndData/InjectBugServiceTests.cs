@@ -12,7 +12,7 @@ namespace C_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
     public class InjectBugServiceTests
     {
-        [Fact(DisplayName = "Create the NewBug Component @create-newbug-component")]
+        [Fact(DisplayName = "Inject the Bug Service into NewBug Component @inject-bugservice-newbug-component")]
         public void InjectBugServiceTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"

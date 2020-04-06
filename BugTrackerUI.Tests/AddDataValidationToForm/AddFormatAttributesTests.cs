@@ -9,11 +9,11 @@ using System.Reflection;
 using System.Text;
 using Xunit;
 
-namespace D_BugTrackerUI.Tests.AddDataValidationToForm
+namespace M05_BugTrackerUI.Tests.AddDataValidationToForm
 {
-    public class AddFormatAttributesTests
+    public class M5_02_AddFormatAttributesTests
     {
-        [Fact(DisplayName = "Inject the Navigation Service into the NewBug Component @inject-navigation-service")]
+        [Fact(DisplayName = "Add Format Attributes @add-format-attributes")]
         public void AddFormatAttributesTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
