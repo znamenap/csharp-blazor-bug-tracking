@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace B_BugTrackerUI.Tests.CreatingNewBugForm
+namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
 {
-    public class AddEditFormButtonTests
+    public class M3_05_AddEditFormButtonTests
     {
         [Fact(DisplayName = "Add the Edit Form Input Components @add-editform-inputs")]
         public void AddEditFormButtonTest()

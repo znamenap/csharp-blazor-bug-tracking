@@ -8,9 +8,9 @@ using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
-namespace C_BugTrackerUI.Tests.WorkingWithServicesAndData
+namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class InjectNavigationServiceTests
+    public class M4_05_InjectNavigationServiceTests
     {
         [Fact(DisplayName = "Inject the Navigation Service into the NewBug Component @inject-navigation-service")]
         public void InjectNavigationServiceTest()

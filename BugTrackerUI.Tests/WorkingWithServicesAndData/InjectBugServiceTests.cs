@@ -8,9 +8,9 @@ using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
-namespace C_BugTrackerUI.Tests.WorkingWithServicesAndData
+namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class InjectBugServiceTests
+    public class M4_02_InjectBugServiceTests
     {
         [Fact(DisplayName = "Inject the Bug Service into NewBug Component @inject-bugservice-newbug-component")]
         public void InjectBugServiceTest()

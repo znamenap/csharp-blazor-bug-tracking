@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 using Xunit;
 using BugTrackerUI.Tests;
 
-namespace C_BugTrackerUI.Tests.WorkingWithServicesAndData
+namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class CreateFormSubmissionHandlerTests
+    public class M4_03_CreateFormSubmissionHandlerTests
     {
         [Fact(DisplayName = "Create the NewBug Component @create-newbug-component")]
         public void CreateFormSubmissionHandlerTest()

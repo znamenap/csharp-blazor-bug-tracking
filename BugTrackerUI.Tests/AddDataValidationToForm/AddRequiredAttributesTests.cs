@@ -9,7 +9,7 @@ using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
-namespace M05_BugTrackerUI.Tests.AddDataValidationToForm
+namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
 {
     public class M5_01_AddRequiredAttributesTests
     {

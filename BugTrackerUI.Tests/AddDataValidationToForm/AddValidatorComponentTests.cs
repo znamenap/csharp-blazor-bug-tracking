@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace M05_BugTrackerUI.Tests.AddDataValidationToForm
+namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
 {
     public class M5_03_AddValidatorComponentTests
     {

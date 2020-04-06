@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 using Xunit;
 using BugTrackerUI.Tests;
 
-namespace C_BugTrackerUI.Tests.WorkingWithServicesAndData
+namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class RedirectToHomePageTests
+    public class M4_06_RedirectToHomePageTests
     {
         [Fact(DisplayName = "Create the NewBug Component @create-newbug-component")]
         public void RedirectToHomePageTest()

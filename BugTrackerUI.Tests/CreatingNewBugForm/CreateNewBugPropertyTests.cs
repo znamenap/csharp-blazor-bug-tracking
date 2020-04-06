@@ -8,9 +8,9 @@ using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
-namespace B_BugTrackerUI.Tests.CreatingNewBugForm
+namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
 {
-    public class CreateNewBugPropertyTests
+    public class M3_02_CreateNewBugPropertyTests
     {
         [Fact(DisplayName = "Create the NewBug Component @create-newbug-component")]
         public void CreateNewBugPropertyTest()

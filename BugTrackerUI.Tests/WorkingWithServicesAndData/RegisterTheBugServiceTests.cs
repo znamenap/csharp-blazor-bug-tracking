@@ -7,9 +7,9 @@ using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
-namespace C_BugTrackerUI.Tests.WorkingWithServicesAndData
+namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class RegisterTheBugServiceTests
+    public class M4_01_RegisterTheBugServiceTests
     {
         [Fact(DisplayName = "Add the Edit Form Input Components @add-editform-inputs")]
         public void RegisterTheBugServiceTest()

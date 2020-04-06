@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 using Xunit;
 using BugTrackerUI.Tests;
 
-namespace C_BugTrackerUI.Tests.WorkingWithServicesAndData
+namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class PersistNewBugTests
+    public class M4_04_PersistNewBugTests
     {
         [Fact(DisplayName = "Create the NewBug Component @create-newbug-component")]
         public void PersistNewBugTest()
