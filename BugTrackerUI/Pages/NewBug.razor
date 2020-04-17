@@ -20,7 +20,7 @@
 
     public Bug AddBug { get; set; } = new Bug();
 
-    protected async Task HandleValidSubmit()
+    protected void HandleValidSubmit()
     {
         BugService.AddBug(AddBug);
         NavService.NavigateTo("");
